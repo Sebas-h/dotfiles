@@ -7,7 +7,6 @@
 " run ex commands defined in given file (can also use 'source' command,
 " instead of runtime)
 "runtime test.vim
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" PLUGINS  (using vim-plug)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
