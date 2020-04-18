@@ -98,6 +98,14 @@ set breakindent
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Mapping Keys
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Ideas:
+" * use <space><space> (i.e. <leader><space> to swtich to latest buffer, for
+"   quick switching between two files
+" * user 'setundodir' and  'setundofile' for vim to remembere undo tree even
+"   after you close vim
+" * also why is my vim automatically making a new line when I get to the end
+"   of this line???
+
 " Key Remappings Insert Mode
 " inoremap jk <Esc>
 " inoremap JK <Esc>
@@ -113,7 +121,7 @@ nnoremap K 5k
 nnoremap Q @q
 
 " Delete seach highlighting with ESC
-nnoremap <esc> :noh<return><esc>
+nnoremap <silent> <esc> :noh<return><esc>
 
 " join lines control-j (by default it is 'J')
 nnoremap <C-j> :join<return>

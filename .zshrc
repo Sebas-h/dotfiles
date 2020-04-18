@@ -63,3 +63,6 @@ setopt COMPLETE_ALIASES # For autocompletion of command line switches for aliase
 typeset -U PATH path
 path=("$HOME/.local/bin" "$path[@]")
 export PATH
+
+# Case insensitive autocompletion
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
